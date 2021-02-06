@@ -1,0 +1,5 @@
+# exclude all data
+Src/Data/*
+
+# keep the folder structure
+!Src/Data/*/.gitkeep
