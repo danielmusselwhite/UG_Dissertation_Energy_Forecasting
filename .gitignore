@@ -1,3 +1,8 @@
+# Excluding all data as it is too big to upload but keeping the folder structure
+!Src/Data/*/
+Src/Data/*/*
+!Src/Data/*/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
