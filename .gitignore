@@ -1,21 +1,7 @@
-# Excluding all data as it is too big to upload but keeping the folder structure
-!Src/Data/**/
-Src/Data/*/*
-!Src/Data/**/.gitkeep
-
-# Excluding all plots as it is too big to upload but keeping the folder structure
-Src/EDA/plots/consumption/Interpolated/*
-!Src/EDA/plots/consumption/Interpolated/.gitkeep
-Src/EDA/plots/consumption/*
-!Src/EDA/plots/consumption/.gitkeep
-Src/EDA/plots/*
-!Src/EDA/plots/.gitkeep
-Src/EDA/plots/addInfo/Imputed/*
-!Src/EDA/plots/addInfo/Imputed/.gitkeep
-Src/EDA/plots/addInfo/Pre-Imputation/*
-!Src/EDA/plots/addInfo/Pre-Imputation/.gitkeep
-Src/EDA/plots/addInfo/*
-!Src/EDA/plots/addInfo/.gitkeep
+# just ignoring the EDA and Data
+# will be easier to generate those needed folders
+Src/EDA/*
+Src/Data/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
